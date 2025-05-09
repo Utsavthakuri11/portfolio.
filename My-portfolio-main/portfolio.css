@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<!-- load CSS stylesheets -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1>My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#Education">Education</a></li>
+				<li><a href="#Skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Insert your personal introduction here.</p>
+		</section>
+
+
+		<section id="bps.jpg">
+			<h2>My Bps.jpg</h2>
+			<div class="project">
+				<img src="bps.jpg" alt="Project 1">
+				<h3>Project 1 Title</h3>
+				<p>Insert a brief description of project 1 here.</p>
+				<button>View Project</button>
+			</div>
+			<!-- repeat the 'project' div for more bps.jpg -->
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label>Name</label>
+				<input type="text">
+
+				<label>Email</label>
+				<input type="email">
+
+				<label>Message</label>
+				<textarea></textarea>
+
+				<button>Send</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 My Portfolio</p>
+	</footer>
+
+</body>
+</html>
